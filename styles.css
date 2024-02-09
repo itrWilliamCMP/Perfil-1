@@ -1,0 +1,62 @@
+/* Estilos para el cuerpo de la página */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilos para el menú lateral */
+.menu {
+    width: 250px;
+    height: 100%;
+    background-color: #333;
+    position: fixed;
+    top: 0;
+    left: 0;
+    overflow-x: hidden;
+    padding-top: 30px;
+}
+
+.menu ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.menu ul li {
+    padding: 10px;
+    text-align: center;
+}
+
+.menu ul li a {
+    text-decoration: none;
+    color: #fff;
+    display: block;
+}
+
+.menu ul li a:hover {
+    background-color: #555;
+}
+
+/* Estilos para el contenido */
+.content {
+    margin-left: 250px;
+    padding: 20px;
+}
+
+/* Estilos para los títulos */
+h1, h2 {
+    color: #333;
+}
+
+/* Estilos para los párrafos */
+p {
+    color: #666565;
+}
+
+/* Estilos para el footer */
+footer {
+    background-color: #000;
+    color: #fdfdfd;
+    text-align: center;
+    padding: 20px 0;
+}
